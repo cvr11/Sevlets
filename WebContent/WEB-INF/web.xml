@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+   <servlet>
+           <servlet-name>helloServ</servlet-name>
+           <servlet-class>com.myfirstservlet.HelloWorldServlet</servlet-class>
+   </servlet> 
+    <servlet-mapping>
+           <servlet-name>helloServ</servlet-name>
+           <url-pattern>/hello</url-pattern>
+     </servlet-mapping>   
+
+   <servlet>
+           <servlet-name>dollarServ</servlet-name>
+           <servlet-class>com.myfirstservlet.DollarServlet</servlet-class>
+   </servlet> 
+    <servlet-mapping>
+           <servlet-name>dollarServ</servlet-name>
+           <url-pattern>/dollar</url-pattern>
+     </servlet-mapping>
+     
+     
+      <servlet>
+           <servlet-name>RegistationServlet</servlet-name>
+           <servlet-class>com.myfirstservlet.RegistationServlet</servlet-class>
+   </servlet> 
+    <servlet-mapping>
+           <servlet-name>RegistationServlet</servlet-name>
+           <url-pattern>/Registation</url-pattern>
+     </servlet-mapping>
+     
+        
+</web-app>
